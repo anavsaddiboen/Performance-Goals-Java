@@ -1,0 +1,38 @@
+package mercado_preso.repository;
+
+import java.util.List;
+
+import mercado_preso.model.Produto;
+
+public class MercadoRepository {
+
+	// CRUD do E-commerce
+
+	// 1.Listar topdo mundo
+	// 2.listar por ID
+	// 3.Cadastrar
+	// 4.atualizar
+	// 5.deletar
+
+	// Métodos
+
+	private List<Produto> produtosBandoDeDados;
+
+	public MercadoRepository(List<Produto> listaProdutos) {
+		this.produtosBandoDeDados = listaProdutos;
+	}
+
+	public List<Produto> getAll() {
+		return this.produtosBandoDeDados;
+	}
+
+	public Produto getProduto(long id) {
+
+		for (int i = 0; i < this.produtosBandoDeDados.size(); i++) {
+
+		}
+
+		return null;
+	}
+
+}
