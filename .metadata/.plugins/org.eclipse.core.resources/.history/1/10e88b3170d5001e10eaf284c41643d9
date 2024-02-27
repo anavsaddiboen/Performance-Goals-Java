@@ -1,0 +1,72 @@
+package mercado_preso;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int opcaoMenu;
+		
+		while (true) {
+			
+			System.out.println("------------------------------------------------------------------");
+			System.out.println("                                                                  ");
+			System.out.println("        MERCADO PRESO     -    CONTROLE DE PRODUTOS               ");
+			System.out.println("                                                                  ");
+			System.out.println("------------------------------------------------------------------");
+			System.out.println("                                                                  ");
+			System.out.println("        1 - Cadastrar Produto                                     ");
+			System.out.println("        2 - Busca por ID                                          ");
+			System.out.println("        3 - Deletar Produto                                       ");
+			System.out.println("        4 - Listar Produtos                                       ");
+			System.out.println("        5 - Atualizar Repositório                                 ");
+			System.out.println("        6 - Sair                                                  ");
+			System.out.println("                                                                  ");
+			System.out.println("------------------------------------------------------------------");
+			System.out.println("                                                                  ");
+			System.out.println("       Selecione a oção desejada:                                 ");
+			System.out.println("                                                                  ");
+			System.out.println("------------------------------------------------------------------");
+		
+			opcaoMenu = sc.nextInt();
+			
+			if ( opcaoMenu == 9) {
+				System.out.println(" Atividade Finalizada!");
+				sc.close();
+				System.exit(0);
+				
+			}
+			
+			switch (opcaoMenu) {
+			case 1: 
+				//
+				
+				break;
+			case 2:
+				//
+				
+				break;
+			case 3:
+				//
+				
+				break;
+			case 4:
+				//
+				
+				break;
+			case 5:
+				//
+				
+				break;
+			default:
+				System.out.println("        \nOpção Inválida!\n                                       ");
+				break;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\anasa\eclipse-workspace\PerformanceGoalsJava\.metadata\.plugins\org.eclipse.jdt.core
+3433694646.index
+3413725848.index
+1865797976.index
